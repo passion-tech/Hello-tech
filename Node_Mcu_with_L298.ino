@@ -9,16 +9,16 @@ Stepper my_Stepper(200, D1, D2, D3, D4);
 bool Right = false;
 bool Left = false;
 
-char auth[] = " HEUnQPNccROPgUKKSCg1SmPi8wK6bLtV ";
-char ssid[] = "TELI";
-char pass[] = "telizar1991";
+char auth[] = " Auth Token";
+char ssid[] = "Wifi Name";
+char pass[] = "Wifi Password";
 
 
 void setup(){
 
   Serial.begin(9600);                                 // baudrate for serial comunication
   Blynk.begin(auth, ssid, pass);                      // network information 
-  my_Stepper.setSpeed(100);                            // Speed for stepper motor
+  my_Stepper.setSpeed(200);                            // Speed for stepper motor
   
 }
 
