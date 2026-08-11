@@ -22,3 +22,5 @@ void loop() {
   lcd.setCursor(0, 1); // set cursor to second row
   lcd.print(i); // print out the retrieved value to the second row
 }
+
+End......
